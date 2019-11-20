@@ -32,6 +32,40 @@ for x in range(1,10):
 for x in range(1,9): 
  print(squares[x])
 
+#Inserting at a particular position
+
+companies.insert(4,'Microsoft')
+
+for company in companies:
+    print(company)
+
+#Removing elements to a list
+
+del companies[-1]
+companies.remove('Microsoft')
+
+#Popping the elements from list
+
+popped_element1=companies.pop()
+popped_element2=companies.pop(1)
+
+#Length of a list
+
+length=len(companies)
+
+companies.sort()
+companies.sort(reverse=True)
+
+
+#Sortng a list temporarly
+print(sorted(companies,reverse=True))
+
+#Reversing a list
+comapanies.reverse()
+
+
+
+
 
 #Slicing a List: A portion of a list is called slice.To slice a list start with the index of first item you want, put a colon and the index
 #                of the last item you want.Leave off the first index to start at the beginning of the list, and leave off the last index to
